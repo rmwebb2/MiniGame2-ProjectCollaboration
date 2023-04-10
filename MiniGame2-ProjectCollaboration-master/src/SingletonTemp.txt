@@ -1,0 +1,51 @@
+public class Room {
+    private static Room instance;
+    private String roomNum;
+    private String roomName;
+    private ArrayList<String> roomDescription;
+    private ArrayList<Exit> exits;
+    private ArrayList<Item> items;
+    private boolean visited;
+
+    private Room(String roomNum, String roomName, ArrayList<String> roomDescription, ArrayList<Exit> exits, ArrayList<Item> items) {
+        this.roomNum = roomNum;
+        this.roomName = roomName;
+        this.roomDescription = roomDescription;
+        this.exits = exits;
+        this.items = items;
+        this.visited = false;
+    }
+
+    public static Room getInstance(String roomNum, String roomName, ArrayList<String> roomDescription, ArrayList<Exit> exits, ArrayList<Item> items) {
+        if (instance == null) {
+            instance = new Room(roomNum, roomName, roomDescription, exits, items);
+        }
+        return instance;
+    }
+
+
+     // you can complete rest of the methods and fields
+
+   }
+
+public class GameUI {
+    private static GameUI instance;
+    private ArrayList<Room> rooms;
+    private Room currentRoom;
+
+    private GameUI(String roomsFilePath) {
+        rooms = readFile(roomsFilePath);
+        if (!rooms.isEmpty()) {
+            currentRoom = rooms.get(0);
+        }
+    }
+
+    public static GameUI getInstance(String roomsFilePath) {
+        if (instance == null) {
+            instance = new GameUI(roomsFilePath);
+        }
+        return instance;
+    }
+
+    // you can complete rest of the methods and fields
+}

@@ -1,3 +1,7 @@
+/**
+ * AdventureGame.java
+ *
+ */
 public class AdventureGame {
     public static void main(String[] args) {
         String roomsFilePath = "Rooms.txt";
