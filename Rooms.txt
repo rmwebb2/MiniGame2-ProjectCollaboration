@@ -1,0 +1,47 @@
+0
+Beginning
+You are standing in front of an abandoned building. The gate out has mysteriously closed behind you, so you must go through.
+You can go EAST or SOUTH
+----------
+EAST 1
+SOUTH 4
+----------
+1
+Purple
+You are standing inside a dimly lit room with purple wallpaper. You can see a small shimmer coming from under a door.
+You can go SOUTH or WEST
+----------
+SOUTH 2
+WEST 0
+----------
+2
+Green
+The windows are covered by green drapes, but there is a red blinking light south of you and a cool blue light on your left.
+You can go WEST or SOUTH
+----------
+SOUTH 3
+WEST 4
+----------
+3
+Red
+The room has a menacing presence and there are no windows or doors. There's no way out, you must turn back.
+You can go NORTH
+----------
+NORTH 2
+----------
+4
+Blue
+The floor is covered in blue carpet and feels safe. The windows are dirty, but you can see a bit of sunlight coming through.
+You can go EAST or SOUTH
+----------
+EAST 2
+SOUTH 5
+NORTH 0
+----------
+5
+End
+You enter the dim room and see that a door is left ajar! You've found the way out!
+You open the door to see a beautiful valley and a rushing river. You bask in its glory. You're free!
+----------
+North 4
+----------
